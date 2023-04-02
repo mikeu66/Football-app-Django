@@ -1,0 +1,67 @@
+*{
+    background-color: #2767AB;
+    color: #C2A675;
+}
+table{
+    padding: 10px;
+    border: 2px;
+    border-style: double;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #023061;
+}
+td {
+    text-align: center;
+}
+h1 {
+    padding-top: 20px;
+    text-align: center;
+    background-color: #A2CDFA;
+    color: #5E3D03;
+}
+h2 {
+    text-align: center;
+    background-color: #A2CDFA;
+    color: #5E3D03;
+}
+.passing{
+    background-color: #A2CDFA;
+    color: #5E3D03;
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 0;
+    margin-right: 0;
+    overflow: hidden;
+  }
+  
+  li a {
+    display: block;
+    color: #5E3D03;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  li {
+    
+    float: right;
+    display: inline;
+  }
+  #past_players {
+    float: left;
+    display: inline;
+    color: #5E3D03;
+  } 
+  
+  a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
