@@ -6,12 +6,19 @@
       "value": "nfl",
       "options": [
         {
+          "value": "college-football",
+          "displayValue": "NCAA - Football",
+          "shortDisplayName": "NCAAF"
+        },
+        {
           "value": "nfl",
-          "displayValue": "National Football League"
+          "displayValue": "National Football League",
+          "shortDisplayName": "NFL"
         },
         {
           "value": "cfl",
-          "displayValue": "Canadian Football League"
+          "displayValue": "Canadian Football League",
+          "shortDisplayName": "CFL"
         }
       ]
     },
@@ -32,24 +39,24 @@
     }
   ],
   "teams": {
-    "pittsburgh-steelers": {
-      "id": "23",
-      "uid": "s:20~l:28~t:23",
-      "guid": "debcd5928d5371f1fc155c8b8ef9df6e",
-      "slug": "pittsburgh-steelers",
-      "location": "Pittsburgh",
-      "name": "Steelers",
-      "nickname": "Steelers",
-      "abbreviation": "PIT",
-      "displayName": "Pittsburgh Steelers",
-      "shortDisplayName": "Steelers",
-      "color": "000000",
-      "alternateColor": "ffb612",
+    "dallas-cowboys": {
+      "id": "6",
+      "uid": "s:20~l:28~t:6",
+      "guid": "b0fc8fb7-9dbe-e574-9008-6f0ee7c6b234",
+      "slug": "dallas-cowboys",
+      "location": "Dallas",
+      "name": "Cowboys",
+      "nickname": "Cowboys",
+      "abbreviation": "DAL",
+      "displayName": "Dallas Cowboys",
+      "shortDisplayName": "Cowboys",
+      "color": "002E4D",
+      "alternateColor": "b0b7bc",
       "isActive": true,
       "isAllStar": false,
       "logos": [
         {
-          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
           "width": 500,
           "height": 500,
           "rel": [
@@ -58,7 +65,7 @@
           ]
         },
         {
-          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/pit.png",
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/dal.png",
           "width": 500,
           "height": 500,
           "rel": [
@@ -67,7 +74,7 @@
           ]
         },
         {
-          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
           "width": 500,
           "height": 500,
           "rel": [
@@ -76,7 +83,7 @@
           ]
         },
         {
-          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/pit.png",
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/dal.png",
           "width": 500,
           "height": 500,
           "rel": [
@@ -94,7 +101,7 @@
             "desktop",
             "team"
           ],
-          "href": "https://www.espn.com/nfl/team/_/name/pit/pittsburgh-steelers",
+          "href": "https://www.espn.com/nfl/team/_/name/dal/dallas-cowboys",
           "text": "Clubhouse",
           "shortText": "Clubhouse",
           "isExternal": false,
@@ -107,7 +114,7 @@
             "desktop",
             "team"
           ],
-          "href": "http://www.espn.com/nfl/team/roster/_/name/pit/pittsburgh-steelers",
+          "href": "http://www.espn.com/nfl/team/roster/_/name/dal/dallas-cowboys",
           "text": "Roster",
           "shortText": "Roster",
           "isExternal": false,
@@ -120,7 +127,7 @@
             "desktop",
             "team"
           ],
-          "href": "http://www.espn.com/nfl/team/stats/_/name/pit/pittsburgh-steelers",
+          "href": "http://www.espn.com/nfl/team/stats/_/name/dal/dallas-cowboys",
           "text": "Statistics",
           "shortText": "Statistics",
           "isExternal": false,
@@ -133,7 +140,7 @@
             "desktop",
             "team"
           ],
-          "href": "https://www.espn.com/nfl/team/schedule/_/name/pit",
+          "href": "https://www.espn.com/nfl/team/schedule/_/name/dal",
           "text": "Schedule",
           "shortText": "Schedule",
           "isExternal": false,
@@ -146,7 +153,7 @@
             "desktop",
             "team"
           ],
-          "href": "https://www.espn.com/nfl/team/photos/_/name/pit",
+          "href": "https://www.espn.com/nfl/team/photos/_/name/dal",
           "text": "photos",
           "shortText": "photos",
           "isExternal": false,
@@ -155,15 +162,14 @@
         {
           "language": "en",
           "rel": [
-            "scores",
-            "sportscenter",
-            "app",
+            "tickets",
+            "desktop",
             "team"
           ],
-          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:28~t:23&section=scores",
-          "text": "Scores",
-          "shortText": "Scores",
-          "isExternal": false,
+          "href": "https://www.vividseats.com/dallas-cowboys-tickets--sports-nfl-football/performer/214?wsUser=717",
+          "text": "Tickets",
+          "shortText": "Tickets",
+          "isExternal": true,
           "isPremium": false
         },
         {
@@ -173,7 +179,7 @@
             "desktop",
             "team"
           ],
-          "href": "https://www.espn.com/nfl/draft/teams/_/name/pit/pittsburgh-steelers",
+          "href": "https://www.espn.com/nfl/draft/teams/_/name/dal/dallas-cowboys",
           "text": "Draft Picks",
           "shortText": "Draft Picks",
           "isExternal": false,
@@ -186,7 +192,7 @@
             "desktop",
             "team"
           ],
-          "href": "https://www.espn.com/nfl/team/transactions/_/name/pit",
+          "href": "https://www.espn.com/nfl/team/transactions/_/name/dal",
           "text": "Transactions",
           "shortText": "Transactions",
           "isExternal": false,
@@ -199,7 +205,7 @@
             "desktop",
             "team"
           ],
-          "href": "https://www.espn.com/nfl/team/injuries/_/name/pit",
+          "href": "https://www.espn.com/nfl/team/injuries/_/name/dal",
           "text": "Injuries",
           "shortText": "Injuries",
           "isExternal": false,
@@ -212,7 +218,7 @@
             "desktop",
             "team"
           ],
-          "href": "https://www.espn.com/nfl/team/depth/_/name/pit",
+          "href": "https://www.espn.com/nfl/team/depth/_/name/dal",
           "text": "Depth Chart",
           "shortText": "Depth Chart",
           "isExternal": false,
@@ -222,19 +228,19 @@
       "groups": {},
       "coaches": {},
       "venue": {
-        "id": "3752",
-        "fullName": "Acrisure Stadium",
+        "id": "3687",
+        "fullName": "AT&T Stadium",
         "address": {
-          "city": "Pittsburgh",
-          "state": "PA",
-          "zipCode": "15212"
+          "city": "Arlington",
+          "state": "TX",
+          "zipCode": "76011"
         },
-        "capacity": 68400,
-        "grass": true,
-        "indoor": false,
+        "capacity": 100000,
+        "grass": false,
+        "indoor": true,
         "images": [
           {
-            "href": "https://a.espncdn.com/i/venues/nfl/day/3752.jpg",
+            "href": "https://a.espncdn.com/i/venues/nfl/day/3687.jpg",
             "width": 2000,
             "height": 1125,
             "rel": [
@@ -243,7 +249,7 @@
             ]
           },
           {
-            "href": "https://a.espncdn.com/i/venues/nfl/day/interior/3752.jpg",
+            "href": "https://a.espncdn.com/i/venues/nfl/day/interior/3687.jpg",
             "width": 2000,
             "height": 1125,
             "rel": [
@@ -261,6 +267,148 @@
     }
   },
   "categories": [
+    {
+      "name": "rushing",
+      "displayName": "Rushing",
+      "labels": [
+        "GP",
+        "CAR",
+        "YDS",
+        "AVG",
+        "TD",
+        "LNG",
+        "FD",
+        "FUM",
+        "LST"
+      ],
+      "names": [
+        "gamesPlayed",
+        "rushingAttempts",
+        "rushingYards",
+        "yardsPerRushAttempt",
+        "rushingTouchdowns",
+        "longRushing",
+        "rushingFirstDowns",
+        "rushingFumbles",
+        "rushingFumblesLost"
+      ],
+      "displayNames": [
+        "Games Played",
+        "Rushing Attempts",
+        "Rushing Yards",
+        "Yards Per Rush Attempt",
+        "Rushing Touchdowns",
+        "Long Rushing",
+        "Rushing 1st downs",
+        "Rushing Fumbles",
+        "Rushing Fumbles Lost"
+      ],
+      "descriptions": [
+        "Games Played",
+        "The total number of attempted rushes.",
+        "The total rushing yards.",
+        "The average number of yards per rush attempt.",
+        "The total number of rushing touchdowns.",
+        "The amount of yards for the longest run.",
+        "The number of times a first down is picked up by a run.",
+        "The number of times there is a run and then the ball is fumbled.",
+        "The number of times there is a run and then the ball is fumbled."
+      ],
+      "statistics": [
+        {
+          "teamId": "6",
+          "teamSlug": "dallas-cowboys",
+          "season": {
+            "year": 2019,
+            "displayName": "2019"
+          },
+          "stats": [
+            "15",
+            "86",
+            "455",
+            "5.3",
+            "2",
+            "44",
+            "21",
+            "1",
+            "1"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "6",
+          "teamSlug": "dallas-cowboys",
+          "season": {
+            "year": 2020,
+            "displayName": "2020"
+          },
+          "stats": [
+            "16",
+            "101",
+            "435",
+            "4.3",
+            "4",
+            "42",
+            "23",
+            "0",
+            "0"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "6",
+          "teamSlug": "dallas-cowboys",
+          "season": {
+            "year": 2021,
+            "displayName": "2021"
+          },
+          "stats": [
+            "15",
+            "130",
+            "719",
+            "5.5",
+            "2",
+            "58",
+            "35",
+            "0",
+            "0"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "6",
+          "teamSlug": "dallas-cowboys",
+          "season": {
+            "year": 2022,
+            "displayName": "2022"
+          },
+          "stats": [
+            "16",
+            "193",
+            "1,007",
+            "5.2",
+            "9",
+            "57",
+            "46",
+            "0",
+            "0"
+          ],
+          "position": "RB"
+        }
+      ],
+      "totals": [
+        "62",
+        "510",
+        "2,616",
+        "5.1",
+        "17",
+        "58",
+        "125",
+        "1",
+        "1"
+      ],
+      "sortKey": "rushing"
+    },
     {
       "name": "receiving",
       "displayName": "Receiving",
@@ -314,738 +462,103 @@
       ],
       "statistics": [
         {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
+          "teamId": "6",
+          "teamSlug": "dallas-cowboys",
           "season": {
-            "year": 1998,
-            "displayName": "1998"
-          },
-          "stats": [
-            "16",
-            "15",
-            "0",
-            "246",
-            "16.4",
-            "0",
-            "45",
-            "12",
-            "0",
-            "0"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 1999,
-            "displayName": "1999"
-          },
-          "stats": [
-            "16",
-            "61",
-            "0",
-            "638",
-            "10.5",
-            "7",
-            "42",
-            "31",
-            "1",
-            "0"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2000,
-            "displayName": "2000"
-          },
-          "stats": [
-            "16",
-            "48",
-            "0",
-            "672",
-            "14.0",
-            "4",
-            "77",
-            "31",
-            "1",
-            "0"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2001,
-            "displayName": "2001"
-          },
-          "stats": [
-            "16",
-            "94",
-            "0",
-            "1,003",
-            "10.7",
-            "4",
-            "34",
-            "52",
-            "1",
-            "1"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2002,
-            "displayName": "2002"
-          },
-          "stats": [
-            "16",
-            "112",
-            "0",
-            "1,329",
-            "11.9",
-            "12",
-            "72",
-            "66",
-            "1",
-            "1"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2003,
-            "displayName": "2003"
-          },
-          "stats": [
-            "16",
-            "95",
-            "0",
-            "1,163",
-            "12.2",
-            "10",
-            "50",
-            "60",
-            "0",
-            "0"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2004,
-            "displayName": "2004"
-          },
-          "stats": [
-            "16",
-            "80",
-            "0",
-            "1,004",
-            "12.6",
-            "4",
-            "58",
-            "52",
-            "1",
-            "0"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2005,
-            "displayName": "2005"
+            "year": 2019,
+            "displayName": "2019"
           },
           "stats": [
             "15",
-            "69",
-            "0",
-            "975",
-            "14.1",
-            "11",
-            "85",
-            "53",
-            "0",
-            "0"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2006,
-            "displayName": "2006"
-          },
-          "stats": [
-            "14",
-            "74",
-            "125",
-            "975",
-            "13.2",
-            "6",
-            "70",
-            "50",
-            "2",
-            "1"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2007,
-            "displayName": "2007"
-          },
-          "stats": [
-            "13",
-            "71",
-            "112",
-            "732",
-            "10.3",
-            "7",
-            "25",
-            "47",
-            "0",
-            "0"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2008,
-            "displayName": "2008"
-          },
-          "stats": [
-            "16",
-            "81",
-            "124",
-            "1,043",
-            "12.9",
-            "7",
-            "49",
-            "55",
-            "1",
-            "0"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2009,
-            "displayName": "2009"
-          },
-          "stats": [
-            "16",
-            "95",
-            "136",
-            "1,167",
-            "12.3",
-            "6",
-            "54",
-            "56",
-            "2",
-            "1"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2010,
-            "displayName": "2010"
-          },
-          "stats": [
-            "16",
-            "59",
-            "94",
-            "755",
-            "12.8",
-            "5",
-            "43",
-            "35",
-            "1",
-            "1"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2011,
-            "displayName": "2011"
-          },
-          "stats": [
             "15",
-            "46",
-            "63",
-            "381",
-            "8.3",
-            "2",
-            "31",
             "20",
+            "107",
+            "7.1",
             "1",
-            "1"
+            "21",
+            "4",
+            "0",
+            "0"
           ],
-          "position": "WR"
+          "position": "RB"
+        },
+        {
+          "teamId": "6",
+          "teamSlug": "dallas-cowboys",
+          "season": {
+            "year": 2020,
+            "displayName": "2020"
+          },
+          "stats": [
+            "16",
+            "28",
+            "40",
+            "192",
+            "6.9",
+            "1",
+            "30",
+            "9",
+            "0",
+            "0"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "6",
+          "teamSlug": "dallas-cowboys",
+          "season": {
+            "year": 2021,
+            "displayName": "2021"
+          },
+          "stats": [
+            "15",
+            "39",
+            "46",
+            "337",
+            "8.6",
+            "0",
+            "32",
+            "15",
+            "2",
+            "0"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "6",
+          "teamSlug": "dallas-cowboys",
+          "season": {
+            "year": 2022,
+            "displayName": "2022"
+          },
+          "stats": [
+            "16",
+            "39",
+            "55",
+            "371",
+            "9.5",
+            "3",
+            "68",
+            "18",
+            "0",
+            "0"
+          ],
+          "position": "RB"
         }
       ],
       "totals": [
-        "217",
-        "1000",
-        "654",
-        "12,083",
-        "12.1",
-        "85",
-        "85",
-        "620",
-        "12",
-        "6"
+        "62",
+        "121",
+        "161",
+        "1,007",
+        "8.3",
+        "5",
+        "68",
+        "46",
+        "2",
+        "0"
       ],
       "sortKey": "receiving"
-    },
-    {
-      "name": "rushing",
-      "displayName": "Rushing",
-      "labels": [
-        "GP",
-        "ATT",
-        "YDS",
-        "AVG",
-        "TD",
-        "LNG",
-        "FD",
-        "FUM",
-        "LST"
-      ],
-      "names": [
-        "gamesPlayed",
-        "rushingAttempts",
-        "rushingYards",
-        "yardsPerRushAttempt",
-        "rushingTouchdowns",
-        "longRushing",
-        "rushingFirstDowns",
-        "rushingFumbles",
-        "rushingFumblesLost"
-      ],
-      "displayNames": [
-        "Games Played",
-        "Rushing Attempts",
-        "Rushing Yards",
-        "Yards Per Rush Attempt",
-        "Rushing Touchdowns",
-        "Long Rushing",
-        "Rushing 1st downs",
-        "Rushing Fumbles",
-        "Rushing Fumbles Lost"
-      ],
-      "descriptions": [
-        "Games Played",
-        "The total number of attempted rushes.",
-        "The total rushing yards.",
-        "The average number of yards per rush attempt.",
-        "The total number of rushing touchdowns.",
-        "The amount of yards for the longest run.",
-        "The number of times a first down is picked up by a run.",
-        "The number of times there is a run and then the ball is fumbled.",
-        "The number of times there is a run and then the ball is fumbled."
-      ],
-      "statistics": [
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 1998,
-            "displayName": "1998"
-          },
-          "stats": [
-            "16",
-            "1",
-            "13",
-            "13.0",
-            "0",
-            "13",
-            "1",
-            "0",
-            "0"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 1999,
-            "displayName": "1999"
-          },
-          "stats": [
-            "16",
-            "2",
-            "-2",
-            "-1.0",
-            "0",
-            "3",
-            "0",
-            "0",
-            "0"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2000,
-            "displayName": "2000"
-          },
-          "stats": [
-            "16",
-            "4",
-            "53",
-            "13.3",
-            "0",
-            "23",
-            "3",
-            "0",
-            "0"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2001,
-            "displayName": "2001"
-          },
-          "stats": [
-            "16",
-            "10",
-            "83",
-            "8.3",
-            "0",
-            "36",
-            "4",
-            "0",
-            "0"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2002,
-            "displayName": "2002"
-          },
-          "stats": [
-            "16",
-            "12",
-            "142",
-            "11.8",
-            "0",
-            "39",
-            "6",
-            "0",
-            "0"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2003,
-            "displayName": "2003"
-          },
-          "stats": [
-            "16",
-            "11",
-            "61",
-            "5.5",
-            "0",
-            "25",
-            "3",
-            "0",
-            "0"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2004,
-            "displayName": "2004"
-          },
-          "stats": [
-            "16",
-            "7",
-            "25",
-            "3.6",
-            "1",
-            "16",
-            "3",
-            "0",
-            "0"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2005,
-            "displayName": "2005"
-          },
-          "stats": [
-            "15",
-            "3",
-            "10",
-            "3.3",
-            "0",
-            "7",
-            "1",
-            "1",
-            "1"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2006,
-            "displayName": "2006"
-          },
-          "stats": [
-            "14",
-            "2",
-            "30",
-            "15.0",
-            "0",
-            "21",
-            "1",
-            "0",
-            "0"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2007,
-            "displayName": "2007"
-          },
-          "stats": [
-            "13",
-            "3",
-            "11",
-            "3.7",
-            "0",
-            "7",
-            "1",
-            "0",
-            "0"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2008,
-            "displayName": "2008"
-          },
-          "stats": [
-            "16",
-            "1",
-            "4",
-            "4.0",
-            "0",
-            "4",
-            "0",
-            "0",
-            "0"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2010,
-            "displayName": "2010"
-          },
-          "stats": [
-            "16",
-            "1",
-            "-2",
-            "-2.0",
-            "0",
-            "-2",
-            "0",
-            "0",
-            "0"
-          ],
-          "position": "WR"
-        }
-      ],
-      "totals": [
-        "217",
-        "57",
-        "428",
-        "7.5",
-        "1",
-        "39",
-        "23",
-        "1",
-        "1"
-      ],
-      "sortKey": "rushing"
-    },
-    {
-      "name": "passing",
-      "displayName": "Passing",
-      "labels": [
-        "GP",
-        "CMP",
-        "ATT",
-        "CMP%",
-        "YDS",
-        "AVG",
-        "TD",
-        "INT",
-        "LNG",
-        "SACK",
-        "RTG",
-        "QBR"
-      ],
-      "names": [
-        "gamesPlayed",
-        "completions",
-        "passingAttempts",
-        "completionPct",
-        "passingYards",
-        "yardsPerPassAttempt",
-        "passingTouchdowns",
-        "interceptions",
-        "longPassing",
-        "sacks",
-        "QBRating",
-        "adjQBR"
-      ],
-      "displayNames": [
-        "Games Played",
-        "Completions",
-        "Passing Attempts",
-        "Completion Percentage",
-        "Passing Yards",
-        "Yards Per Pass Attempt",
-        "Passing Touchdowns",
-        "Interceptions",
-        "Longest Pass",
-        "Total Sacks",
-        "Passer Rating",
-        "Adjusted QBR"
-      ],
-      "descriptions": [
-        "Games Played",
-        "The times a player completes a pass to another player who is eligible to catch a pass.",
-        "The number of times a pass is attempted.",
-        "The percentage of completed passes.",
-        "The total passing yards.",
-        "The average number yards per pass attempt.",
-        "The total number of passing touchdowns.",
-        "The number of passes thrown that were intercepted by the opposing team.",
-        "The longest pass play completed in terms of yards.",
-        "The total number of sacks.",
-        "Passer Rating",
-        "Adjusted Quarterback Rating."
-      ],
-      "statistics": [
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 1998,
-            "displayName": "1998"
-          },
-          "stats": [
-            "16",
-            "1",
-            "1",
-            "100.0",
-            "17",
-            "17.0",
-            "0",
-            "0",
-            "17",
-            "0",
-            "118.8",
-            "-"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2001,
-            "displayName": "2001"
-          },
-          "stats": [
-            "16",
-            "0",
-            "1",
-            "0.0",
-            "0",
-            "0.0",
-            "0",
-            "0",
-            "0",
-            "1",
-            "39.6",
-            "-"
-          ],
-          "position": "WR"
-        }
-      ],
-      "totals": [
-        "217",
-        "1",
-        "2",
-        "50.0",
-        "17",
-        "8.5",
-        "0",
-        "0",
-        "17",
-        "1",
-        "79.2",
-        "-"
-      ],
-      "sortKey": "passing"
     },
     {
       "name": "returning",
@@ -1116,33 +629,33 @@
       ],
       "statistics": [
         {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
+          "teamId": "6",
+          "teamSlug": "dallas-cowboys",
           "season": {
-            "year": 1999,
-            "displayName": "1999"
+            "year": 2019,
+            "displayName": "2019"
           },
           "stats": [
-            "16",
-            "1",
-            "2",
+            "15",
             "0",
             "0",
-            "2",
-            "1",
-            "24",
             "0",
             "0",
-            "24"
+            "0",
+            "14",
+            "245",
+            "0",
+            "0",
+            "30"
           ],
-          "position": "WR"
+          "position": "RB"
         },
         {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
+          "teamId": "6",
+          "teamSlug": "dallas-cowboys",
           "season": {
-            "year": 2000,
-            "displayName": "2000"
+            "year": 2020,
+            "displayName": "2020"
           },
           "stats": [
             "16",
@@ -1151,29 +664,174 @@
             "0",
             "0",
             "0",
-            "7",
-            "186",
+            "32",
+            "766",
             "0",
             "0",
-            "57"
+            "67"
           ],
-          "position": "WR"
+          "position": "RB"
+        },
+        {
+          "teamId": "6",
+          "teamSlug": "dallas-cowboys",
+          "season": {
+            "year": 2021,
+            "displayName": "2021"
+          },
+          "stats": [
+            "15",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "17",
+            "489",
+            "1",
+            "0",
+            "100"
+          ],
+          "position": "RB"
         }
       ],
       "totals": [
-        "217",
+        "62",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "63",
+        "1,500",
         "1",
-        "2",
         "0",
-        "0",
-        "2",
-        "8",
-        "210",
-        "0",
-        "0",
-        "57"
+        "100"
       ],
       "sortKey": "returning"
+    },
+    {
+      "name": "passing",
+      "displayName": "Passing",
+      "labels": [
+        "GP",
+        "CMP",
+        "ATT",
+        "CMP%",
+        "YDS",
+        "AVG",
+        "TD",
+        "INT",
+        "LNG",
+        "SACK",
+        "RTG",
+        "QBR"
+      ],
+      "names": [
+        "gamesPlayed",
+        "completions",
+        "passingAttempts",
+        "completionPct",
+        "passingYards",
+        "yardsPerPassAttempt",
+        "passingTouchdowns",
+        "interceptions",
+        "longPassing",
+        "sacks",
+        "QBRating",
+        "adjQBR"
+      ],
+      "displayNames": [
+        "Games Played",
+        "Completions",
+        "Passing Attempts",
+        "Completion Percentage",
+        "Passing Yards",
+        "Yards Per Pass Attempt",
+        "Passing Touchdowns",
+        "Interceptions",
+        "Longest Pass",
+        "Total Sacks",
+        "Passer Rating",
+        "Adjusted QBR"
+      ],
+      "descriptions": [
+        "Games Played",
+        "The times a player completes a pass to another player who is eligible to catch a pass.",
+        "The number of times a pass is attempted.",
+        "The percentage of completed passes.",
+        "The total passing yards.",
+        "The average number yards per pass attempt.",
+        "The total number of passing touchdowns.",
+        "The number of passes thrown that were intercepted by the opposing team.",
+        "The longest pass play completed in terms of yards.",
+        "The total number of sacks.",
+        "Passer Rating",
+        "Adjusted Quarterback Rating."
+      ],
+      "statistics": [
+        {
+          "teamId": "6",
+          "teamSlug": "dallas-cowboys",
+          "season": {
+            "year": 2021,
+            "displayName": "2021"
+          },
+          "stats": [
+            "15",
+            "0",
+            "0",
+            "0.0",
+            "0",
+            "0.0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0.0",
+            "98.9"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "6",
+          "teamSlug": "dallas-cowboys",
+          "season": {
+            "year": 2022,
+            "displayName": "2022"
+          },
+          "stats": [
+            "16",
+            "0",
+            "0",
+            "0.0",
+            "0",
+            "0.0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0.0",
+            "0.8"
+          ],
+          "position": "RB"
+        }
+      ],
+      "totals": [
+        "62",
+        "0",
+        "0",
+        "0.0",
+        "0",
+        "0.0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0.0",
+        "-"
+      ],
+      "sortKey": "passing"
     },
     {
       "name": "defensive",
@@ -1256,179 +914,11 @@
       ],
       "statistics": [
         {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
+          "teamId": "6",
+          "teamSlug": "dallas-cowboys",
           "season": {
-            "year": 1998,
-            "displayName": "1998"
-          },
-          "stats": [
-            "16",
-            "2",
-            "1",
-            "1",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0.0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2000,
-            "displayName": "2000"
-          },
-          "stats": [
-            "16",
-            "1",
-            "0",
-            "1",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0.0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2001,
-            "displayName": "2001"
-          },
-          "stats": [
-            "16",
-            "3",
-            "3",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0.0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2002,
-            "displayName": "2002"
-          },
-          "stats": [
-            "16",
-            "2",
-            "2",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0.0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2003,
-            "displayName": "2003"
-          },
-          "stats": [
-            "16",
-            "3",
-            "3",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0.0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2004,
-            "displayName": "2004"
-          },
-          "stats": [
-            "16",
-            "3",
-            "3",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0.0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2005,
-            "displayName": "2005"
+            "year": 2019,
+            "displayName": "2019"
           },
           "stats": [
             "15",
@@ -1449,75 +939,19 @@
             "0",
             "0"
           ],
-          "position": "WR"
+          "position": "RB"
         },
         {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
+          "teamId": "6",
+          "teamSlug": "dallas-cowboys",
           "season": {
-            "year": 2006,
-            "displayName": "2006"
-          },
-          "stats": [
-            "14",
-            "2",
-            "2",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0.0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2007,
-            "displayName": "2007"
-          },
-          "stats": [
-            "13",
-            "2",
-            "2",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0.0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2008,
-            "displayName": "2008"
+            "year": 2020,
+            "displayName": "2020"
           },
           "stats": [
             "16",
-            "1",
-            "1",
+            "2",
+            "2",
             "0",
             "0",
             "0",
@@ -1533,45 +967,45 @@
             "0",
             "0"
           ],
-          "position": "WR"
+          "position": "RB"
         },
         {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
+          "teamId": "6",
+          "teamSlug": "dallas-cowboys",
           "season": {
-            "year": 2010,
-            "displayName": "2010"
-          },
-          "stats": [
-            "16",
-            "4",
-            "4",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0.0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2011,
-            "displayName": "2011"
+            "year": 2021,
+            "displayName": "2021"
           },
           "stats": [
             "15",
+            "5",
+            "4",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0.0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "6",
+          "teamSlug": "dallas-cowboys",
+          "season": {
+            "year": 2022,
+            "displayName": "2022"
+          },
+          "stats": [
+            "16",
             "1",
             "1",
             "0",
@@ -1589,14 +1023,14 @@
             "0",
             "0"
           ],
-          "position": "WR"
+          "position": "RB"
         }
       ],
       "totals": [
-        "217",
-        "25",
-        "23",
-        "2",
+        "62",
+        "9",
+        "8",
+        "1",
         "0",
         "0",
         "0",
@@ -1666,290 +1100,101 @@
       ],
       "statistics": [
         {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
+          "teamId": "6",
+          "teamSlug": "dallas-cowboys",
           "season": {
-            "year": 1999,
-            "displayName": "1999"
+            "year": 2019,
+            "displayName": "2019"
           },
           "stats": [
-            "16",
+            "15",
             "0",
+            "2",
+            "1",
             "0",
-            "7",
-            "0",
-            "7",
+            "3",
             "1",
             "0",
             "0",
-            "44"
+            "20"
           ],
-          "position": "WR"
+          "position": "RB"
         },
         {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
+          "teamId": "6",
+          "teamSlug": "dallas-cowboys",
           "season": {
-            "year": 2000,
-            "displayName": "2000"
+            "year": 2020,
+            "displayName": "2020"
           },
           "stats": [
             "16",
             "0",
-            "0",
             "4",
+            "1",
             "0",
-            "4",
+            "5",
             "0",
             "0",
             "0",
-            "24"
+            "30"
           ],
-          "position": "WR"
+          "position": "RB"
         },
         {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
+          "teamId": "6",
+          "teamSlug": "dallas-cowboys",
           "season": {
-            "year": 2001,
-            "displayName": "2001"
+            "year": 2021,
+            "displayName": "2021"
           },
           "stats": [
-            "16",
+            "15",
             "0",
+            "2",
             "0",
-            "4",
-            "0",
-            "4",
-            "0",
-            "0",
-            "0",
-            "24"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2002,
-            "displayName": "2002"
-          },
-          "stats": [
-            "16",
-            "0",
-            "0",
-            "12",
-            "0",
-            "12",
+            "1",
             "3",
             "0",
             "0",
-            "78"
+            "0",
+            "18"
           ],
-          "position": "WR"
+          "position": "RB"
         },
         {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
+          "teamId": "6",
+          "teamSlug": "dallas-cowboys",
           "season": {
-            "year": 2003,
-            "displayName": "2003"
+            "year": 2022,
+            "displayName": "2022"
           },
           "stats": [
             "16",
             "0",
+            "9",
+            "3",
             "0",
-            "10",
-            "0",
-            "10",
+            "12",
             "0",
             "0",
             "0",
-            "60"
+            "72"
           ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2004,
-            "displayName": "2004"
-          },
-          "stats": [
-            "16",
-            "0",
-            "1",
-            "4",
-            "0",
-            "5",
-            "0",
-            "0",
-            "0",
-            "30"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2005,
-            "displayName": "2005"
-          },
-          "stats": [
-            "15",
-            "0",
-            "0",
-            "11",
-            "0",
-            "11",
-            "0",
-            "0",
-            "0",
-            "66"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2006,
-            "displayName": "2006"
-          },
-          "stats": [
-            "14",
-            "0",
-            "0",
-            "6",
-            "0",
-            "6",
-            "0",
-            "0",
-            "0",
-            "36"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2007,
-            "displayName": "2007"
-          },
-          "stats": [
-            "13",
-            "0",
-            "0",
-            "7",
-            "0",
-            "7",
-            "1",
-            "0",
-            "0",
-            "44"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2008,
-            "displayName": "2008"
-          },
-          "stats": [
-            "16",
-            "0",
-            "0",
-            "7",
-            "0",
-            "7",
-            "0",
-            "0",
-            "0",
-            "42"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2009,
-            "displayName": "2009"
-          },
-          "stats": [
-            "16",
-            "0",
-            "0",
-            "6",
-            "0",
-            "6",
-            "0",
-            "0",
-            "0",
-            "36"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2010,
-            "displayName": "2010"
-          },
-          "stats": [
-            "16",
-            "0",
-            "0",
-            "5",
-            "0",
-            "5",
-            "0",
-            "0",
-            "0",
-            "30"
-          ],
-          "position": "WR"
-        },
-        {
-          "teamId": "23",
-          "teamSlug": "pittsburgh-steelers",
-          "season": {
-            "year": 2011,
-            "displayName": "2011"
-          },
-          "stats": [
-            "15",
-            "0",
-            "0",
-            "2",
-            "0",
-            "2",
-            "0",
-            "0",
-            "0",
-            "12"
-          ],
-          "position": "WR"
+          "position": "RB"
         }
       ],
       "totals": [
-        "217",
+        "62",
         "0",
-        "1",
-        "85",
-        "0",
-        "86",
+        "17",
         "5",
+        "1",
+        "23",
+        "1",
         "0",
         "0",
-        "526"
+        "140"
       ],
       "sortKey": "scoring"
     }
@@ -1985,11 +1230,15 @@
     },
     {
       "abbreviation": "ATT",
-      "displayName": "Rushing Attempts"
+      "displayName": "Punt Returns"
     },
     {
       "abbreviation": "AVG",
-      "displayName": "Yards Per Reception"
+      "displayName": "Yards Per Rush Attempt"
+    },
+    {
+      "abbreviation": "CAR",
+      "displayName": "Rushing Attempts"
     },
     {
       "abbreviation": "CMP",
@@ -2005,7 +1254,7 @@
     },
     {
       "abbreviation": "FD",
-      "displayName": "Receiving First Downs"
+      "displayName": "Rushing 1st downs"
     },
     {
       "abbreviation": "FF",
@@ -2025,7 +1274,7 @@
     },
     {
       "abbreviation": "FUM",
-      "displayName": "Receiving Fumbles"
+      "displayName": "Rushing Fumbles"
     },
     {
       "abbreviation": "GP",
@@ -2053,11 +1302,11 @@
     },
     {
       "abbreviation": "LNG",
-      "displayName": "Long Reception"
+      "displayName": "Long Rushing"
     },
     {
       "abbreviation": "LST",
-      "displayName": "Receiving Fumbles Lost"
+      "displayName": "Rushing Fumbles Lost"
     },
     {
       "abbreviation": "NET",
@@ -2129,7 +1378,7 @@
     },
     {
       "abbreviation": "TD",
-      "displayName": "Receiving Touchdowns"
+      "displayName": "Rushing Touchdowns"
     },
     {
       "abbreviation": "TGTS",
@@ -2149,7 +1398,7 @@
     },
     {
       "abbreviation": "YDS",
-      "displayName": "Receiving Yards"
+      "displayName": "Rushing Yards"
     }
   ]
 }

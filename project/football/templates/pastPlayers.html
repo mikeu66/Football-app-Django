@@ -2,6 +2,8 @@
 {%load static%}
 
 
+
+
 <html lang="en">
     <head>
 		<title>All Players</title>
@@ -9,20 +11,81 @@
 		href="{%static '/css/style.css'%}">
 	</head>
 
-	
-	<form action = "search" method = "get">
+	<div id = "nav">
+		<div class="box">
+			<form action = "search/search" method = "get">
+				<i class="fas fa-search">
+					<svg viewBox="0 0 512 512" width="20" height="20" fill="#FFFFFF" title="search">
+					<path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z" />
+				</svg>
+				</i>
+				<input type="text" placeholder="Search for player" class="input" name="player_name" onmouseout="this.value = ''; this.blur();">
+			</form>
+		</div>
+		<h1>Statistic Searcher</h2>
+	</div>	
+
+
+	<!-- <div class="search-box">
+		<button class="btn-search"><i class="fas fa-search"></i></button>
+		<input type="text" class="input-search" placeholder="Type to Search...">
+	</div> -->
+	<!-- <button>
+		<a href = "/football/search">Search</a>
+	</button>	 -->
+	<!-- <form action = "search" method = "get">
 		<ul>
 			<li><a href = "/football/search">Search</a></li>
 		</ul>
-	</form>
+	</form> -->
 
-    {%for label in player %}
-		<h1><a href = "pull/pull?player_name={{label.name}}">{{ label.name }}</a></h1>
-	{% endfor %}
+	<body>
 
-    {%for i in player.passing_career %}
-		<h1> {{ i.0 }}</h1>
-	{% endfor %}
 
+		<div id = "recent-div">
+			<div id = "table-div">
+				<h1 id = "recent-title">Recently Viewed</h1>
+				{%for label in recentPlayers %}
+				<table id = "recent-table" >
+					<tr>
+						<th>Name</th>
+						<th>Position</th>
+						<th>Last Team</th>
+					</tr>
+					
+					<tr>
+						
+							<td><a href = "pull/pull?player_name={{label.name}}">{{label.name}}</a></td>
+							<td><a href = "pull/pull?player_name={{label.name}}">{{label.position}}</a></td>
+							<td><a href = "pull/pull?player_name={{label.name}}">{{label.last_team}}</a></td>
+					</tr>
+					
+				{% endfor %}
+
+				</table>
+			</div>
+			<!-- <h1 id = "recent-title">Recently Viewed</h1>
+			{%for label in recentPlayers %}
+				<h4 class = "recent-searches"><a href = "pull/pull?player_name={{label.name}}">{{ label.name }}</a></h4>
+				<h4>{{label.position}}</h4>
+			{% endfor %} -->
+
+		</div>
+
+		
+
+		<div id = "most-div">
+			<h2 id = "most-title">Most Viewed</h2>
+
+			{%for label in mostViewed %}
+			<table id = "most-table">
+				<tr>
+					<td><a href = "pull/pull?player_name={{label.name}}">{{ label.name }}</a></td>
+					<td style = "width: 80px;"><a href = "pull/pull?player_name={{label.name}}">{{ label.count }}</a></td>
+				</tr>
+			</table>
+			{% endfor %}
+
+		</div>
     </body>
 </html>

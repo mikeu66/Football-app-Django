@@ -1,6 +1,5 @@
 from django.shortcuts import render
 from typing import List
-from tabulate import tabulate
 import json
 import requests
 import pandas as pd
@@ -8,39 +7,16 @@ import os
 from .models import Player
 from django.http import HttpResponse
 from django.template import loader
+from django.utils import timezone
 
 
 
 # Create your views here.
 def myview(request, player_name):
-    try:
-        player_name  = request.GET.get('player_name')
-        player_name = player_name.split()[0].capitalize() + " " + player_name.split()[1].capitalize()
-    except:
-            return render(request, "notFound.html")
-
-    #add all of this to a function
+    player_name = clean_player_name(request, player_name)
     all_players = Player.objects.all()
-    jsonDec = json.decoder.JSONDecoder()
-
-
-    
-    #    if i.name == "Tom Brady":
-    #        passing_decoded = jsonDec.decode(i.passing_career)
-
-
-
-    passing_list = []
-    rushing_list = []
-    receiving_list = []
-    defensive_list = []
-    scoring_list = []
-
-    already_exists = False
-    for i in all_players:
-        if i.name == player_name:
-            already_exists = True
-    page_name = "index.html"
+    # jsonDec = json.decoder.JSONDecoder()
+    already_exists = check_for_player(all_players, player_name)
 
     #add database check here
     #if not in database pull data
@@ -49,29 +25,16 @@ def myview(request, player_name):
             player_id = get_player_id(player_name)
             get_player_data(player_id)
             stats = load_player(player_name)
-            a = Player(name = player_name, passing_career = json.dumps(stats[0]), rushing_career = json.dumps(stats[1]), receiving_career = json.dumps(stats[2]), defensive_career = json.dumps(stats[4]), scoring_career = json.dumps(stats[3]))
+            a = Player(name = player_name, passing_career = json.dumps(stats[0]), rushing_career = json.dumps(stats[1]), receiving_career = json.dumps(stats[2]), defensive_career = json.dumps(stats[4]), scoring_career = json.dumps(stats[3])
+                       ,position = stats[5], last_team = stats[6])
             a.save()
         except:
             return render(request, "notFound.html")
     else:
         stats = pull_player(player_name)
-        page_name = "pullStats.html"
-        
-        
 
-        
-    #create player 
-    #if in database load player from stored data
-    
-
-
-   
-
-    #player_name = player_name.split()[0].capitalize() + " " + player_name.split()[1].capitalize()
-
-    #a = Player(name = "Tom Brady", passing_career = json.dumps(stats[0]))
-    #a.save()
-    return render(request, page_name, {'name': player_name, 'scoring_career' : stats[3],  'passing_career' : stats[0],'rushing_career' : stats[1],  'receiving_career' : stats[2],  'defensive_career' : stats[4]})
+    #stats = retrieve_stats(request, player_name)
+    return render(request, "index.html", {'name': player_name, 'scoring_career' : stats[3],  'passing_career' : stats[0],'rushing_career' : stats[1],  'receiving_career' : stats[2],  'defensive_career' : stats[4]})
 
 
 
@@ -84,26 +47,29 @@ def searchView(request):
     return render(request, "search.html")
 
 def allPlayersView(request):
-    return render(request, "pastPlayers.html", {'player': Player.objects.all()})
+    print(Player.objects.all().order_by('-created_date'))
+    return render(request, "pastPlayers.html", {'recentPlayers': Player.objects.all().order_by('-created_date'), 'mostViewed': Player.objects.all().order_by('-count')})
 
 def pullPlayerStats(request, player_name):
     #turn this into pull_player function
     all_players = Player.objects.all()
     jsonDec = json.decoder.JSONDecoder()
     player_name  = request.GET.get('player_name')
-    for i in all_players:
-        if i.name == player_name:
-            passing_decoded = jsonDec.decode(i.passing_career)
-            rushing_decoded = jsonDec.decode(i.rushing_career)
-            receiving_decoded = jsonDec.decode(i.receiving_career)
-            defensive_decoded = jsonDec.decode(i.defensive_career)
-            scoring_decoded = jsonDec.decode(i.scoring_career)
+    stats = pull_player(player_name)
+
+    # for i in all_players:
+    #     if i.name == player_name:
+    #         passing_decoded = jsonDec.decode(i.passing_career)
+    #         rushing_decoded = jsonDec.decode(i.rushing_career)
+    #         receiving_decoded = jsonDec.decode(i.receiving_career)
+    #         defensive_decoded = jsonDec.decode(i.defensive_career)
+    #         scoring_decoded = jsonDec.decode(i.scoring_career)
             
 
 
 
 
-    return render(request, "pullStats.html", {'name': player_name, 'scoring_career' : scoring_decoded,  'passing_career' : passing_decoded,'rushing_career' : rushing_decoded,  'receiving_career' : receiving_decoded,  'defensive_career' : defensive_decoded})
+    return render(request, "pullStats.html", {'name': player_name, 'scoring_career' : stats[3],  'passing_career' : stats[0],'rushing_career' : stats[1],  'receiving_career' : stats[2],  'defensive_career' : stats[4]})
     
 rushing_labels = [
         "Games Played",
@@ -295,6 +261,15 @@ def load_player(player_name):
 
         #get player position
         position = data['categories'][0]['statistics'][2]['position']
+
+        last_team_raw = data['categories'][0]['statistics'][-1]['teamSlug']
+        # last_team_split = last_team_raw.split('-')
+        # last_team = ""
+        # for i in last_team_split:
+        #     last_team += i.capitalize() + " "
+
+        last_team = get_last_team(last_team_raw)
+
         
      
         receiving_season_dict = {}
@@ -361,10 +336,12 @@ def load_player(player_name):
         defensive_career = ("Defense", defensive_labels, defensive_stats_packaged)
         receiving_career = ("Receiving", receiving_labels, receiving_stats_packaged)
 
-    return passing_career, rushing_career, receiving_career, scoring_career, defensive_career
+    return passing_career, rushing_career, receiving_career, scoring_career, defensive_career, position, last_team
 
 def pull_player(player_name):
+    
     all_players = Player.objects.all()
+    
     jsonDec = json.decoder.JSONDecoder()
     
     for i in all_players:
@@ -374,4 +351,49 @@ def pull_player(player_name):
             receiving_decoded = jsonDec.decode(i.receiving_career)
             defensive_decoded = jsonDec.decode(i.defensive_career)
             scoring_decoded = jsonDec.decode(i.scoring_career)
-    return passing_decoded, rushing_decoded, receiving_decoded, scoring_decoded, defensive_decoded 
+            i.created_date = timezone.now()
+            i.count += 1
+            i.save()
+    return passing_decoded, rushing_decoded, receiving_decoded, scoring_decoded, defensive_decoded
+
+
+#checks if player exists and returns name in searchable format
+def clean_player_name(request, player_name):
+    try:
+        player_name  = request.GET.get('player_name')
+        player_name = player_name.split()[0].capitalize() + " " + player_name.split()[1].capitalize()
+        return player_name
+    except:
+        return render(request, "notFound.html")
+    
+def check_for_player(all_players, player_name):
+    already_exists = False
+    for i in all_players:
+        if i.name == player_name:
+            already_exists = True
+    return already_exists
+
+def retrieve_stats(request, player_name):
+    player_name = clean_player_name(request, player_name)
+    all_players = Player.objects.all()
+    jsonDec = json.decoder.JSONDecoder()
+    already_exists = check_for_player(all_players, player_name)
+    if already_exists == False: 
+        try:
+            player_id = get_player_id(player_name)
+            get_player_data(player_id)
+            stats = load_player(player_name)
+            a = Player(name = player_name, passing_career = json.dumps(stats[0]), rushing_career = json.dumps(stats[1]), receiving_career = json.dumps(stats[2]), defensive_career = json.dumps(stats[4]), scoring_career = json.dumps(stats[3]), position = stats[5], last_team = stats[6])
+            a.save()
+        except:
+            return render(request, "notFound.html")
+    else:
+        stats = pull_player(player_name)
+    return stats
+
+def get_last_team(team_data):
+    last_team_split = team_data.split('-')
+    last_team = ""
+    for i in last_team_split:
+        last_team += i.capitalize() + " "
+    return last_team
