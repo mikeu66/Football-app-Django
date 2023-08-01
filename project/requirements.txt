@@ -6,7 +6,7 @@ Django==4.1.5
 idna==3.4
 numpy==1.24.1
 # Editable install with no version control (opensky-api==1.3.0)
--e /Users/michaelwalter/Documents/CodeProjects/2023/OpenSky-Kafka/opensky-api-master/python
+-e /Users/michaelwalter/Documents/CodeProjects/2023/Django_projects/env/bin/python
 pandas==1.5.2
 python-dateutil==2.8.2
 pytz==2022.7.1
