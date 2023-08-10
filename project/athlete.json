@@ -39,24 +39,211 @@
     }
   ],
   "teams": {
-    "dallas-cowboys": {
-      "id": "6",
-      "uid": "s:20~l:28~t:6",
-      "guid": "b0fc8fb7-9dbe-e574-9008-6f0ee7c6b234",
-      "slug": "dallas-cowboys",
-      "location": "Dallas",
-      "name": "Cowboys",
-      "nickname": "Cowboys",
-      "abbreviation": "DAL",
-      "displayName": "Dallas Cowboys",
-      "shortDisplayName": "Cowboys",
-      "color": "002E4D",
-      "alternateColor": "b0b7bc",
+    "oakland-raiders": {
+      "id": "13",
+      "uid": "s:20~l:28~t:13",
+      "guid": "b18540eb-6f2b-534c-e7f9-9bd930518da9",
+      "slug": "oakland-raiders",
+      "location": "Oakland",
+      "name": "Raiders",
+      "nickname": "Raiders",
+      "abbreviation": "OAK",
+      "displayName": "Oakland Raiders",
+      "shortDisplayName": "Raiders",
+      "color": "000000",
+      "alternateColor": "a5acaf",
+      "isActive": false,
+      "isAllStar": false,
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "clubhouse",
+            "desktop",
+            "team"
+          ],
+          "href": "https://www.espn.com/nfl/team/_/name/lv/las-vegas-raiders",
+          "text": "Clubhouse",
+          "shortText": "Clubhouse",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "roster",
+            "desktop",
+            "team"
+          ],
+          "href": "http://www.espn.com/nfl/team/roster/_/name/lv/las-vegas-raiders",
+          "text": "Roster",
+          "shortText": "Roster",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "stats",
+            "desktop",
+            "team"
+          ],
+          "href": "http://www.espn.com/nfl/team/stats/_/name/lv/las-vegas-raiders",
+          "text": "Statistics",
+          "shortText": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "schedule",
+            "desktop",
+            "team"
+          ],
+          "href": "https://www.espn.com/nfl/team/schedule/_/name/lv",
+          "text": "Schedule",
+          "shortText": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "photos",
+            "desktop",
+            "team"
+          ],
+          "href": "https://www.espn.com/nfl/team/photos/_/name/lv",
+          "text": "photos",
+          "shortText": "photos",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "tickets",
+            "desktop",
+            "team"
+          ],
+          "href": "https://www.vividseats.com/las-vegas-raiders-tickets--sports-nfl-football/performer/626?wsUser=717",
+          "text": "Tickets",
+          "shortText": "Tickets",
+          "isExternal": true,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "draftpicks",
+            "desktop",
+            "team"
+          ],
+          "href": "https://www.espn.com/nfl/draft/teams/_/name/lv/las-vegas-raiders",
+          "text": "Draft Picks",
+          "shortText": "Draft Picks",
+          "isExternal": false,
+          "isPremium": true
+        },
+        {
+          "language": "en",
+          "rel": [
+            "transactions",
+            "desktop",
+            "team"
+          ],
+          "href": "https://www.espn.com/nfl/team/transactions/_/name/lv",
+          "text": "Transactions",
+          "shortText": "Transactions",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "injuries",
+            "desktop",
+            "team"
+          ],
+          "href": "https://www.espn.com/nfl/team/injuries/_/name/lv",
+          "text": "Injuries",
+          "shortText": "Injuries",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "depthchart",
+            "desktop",
+            "team"
+          ],
+          "href": "https://www.espn.com/nfl/team/depth/_/name/lv",
+          "text": "Depth Chart",
+          "shortText": "Depth Chart",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "groups": {},
+      "coaches": {},
+      "venue": {
+        "id": "3867",
+        "fullName": "Oakland Coliseum",
+        "address": {
+          "city": "Oakland",
+          "state": "CA",
+          "zipCode": "94621"
+        },
+        "capacity": 55997,
+        "grass": true,
+        "indoor": false,
+        "images": [
+          {
+            "href": "https://a.espncdn.com/i/venues/nfl/day/3867.jpg",
+            "width": 2000,
+            "height": 1125,
+            "rel": [
+              "full",
+              "day"
+            ]
+          },
+          {
+            "href": "https://a.espncdn.com/i/venues/nfl/day/interior/3867.jpg",
+            "width": 2000,
+            "height": 1125,
+            "rel": [
+              "full",
+              "day",
+              "interior"
+            ]
+          }
+        ]
+      },
+      "record": {},
+      "againstTheSpreadRecords": {},
+      "ranks": {},
+      "franchise": {}
+    },
+    "seattle-seahawks": {
+      "id": "26",
+      "uid": "s:20~l:28~t:26",
+      "guid": "3767a23c-a17d-294f-288a-9086ad1f0680",
+      "slug": "seattle-seahawks",
+      "location": "Seattle",
+      "name": "Seahawks",
+      "nickname": "Seahawks",
+      "abbreviation": "SEA",
+      "displayName": "Seattle Seahawks",
+      "shortDisplayName": "Seahawks",
+      "color": "224970",
+      "alternateColor": "69be28",
       "isActive": true,
       "isAllStar": false,
       "logos": [
         {
-          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
           "width": 500,
           "height": 500,
           "rel": [
@@ -65,7 +252,7 @@
           ]
         },
         {
-          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/dal.png",
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/sea.png",
           "width": 500,
           "height": 500,
           "rel": [
@@ -74,7 +261,7 @@
           ]
         },
         {
-          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
           "width": 500,
           "height": 500,
           "rel": [
@@ -83,7 +270,7 @@
           ]
         },
         {
-          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/dal.png",
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/sea.png",
           "width": 500,
           "height": 500,
           "rel": [
@@ -101,7 +288,7 @@
             "desktop",
             "team"
           ],
-          "href": "https://www.espn.com/nfl/team/_/name/dal/dallas-cowboys",
+          "href": "https://www.espn.com/nfl/team/_/name/sea/seattle-seahawks",
           "text": "Clubhouse",
           "shortText": "Clubhouse",
           "isExternal": false,
@@ -114,7 +301,7 @@
             "desktop",
             "team"
           ],
-          "href": "http://www.espn.com/nfl/team/roster/_/name/dal/dallas-cowboys",
+          "href": "http://www.espn.com/nfl/team/roster/_/name/sea/seattle-seahawks",
           "text": "Roster",
           "shortText": "Roster",
           "isExternal": false,
@@ -127,7 +314,7 @@
             "desktop",
             "team"
           ],
-          "href": "http://www.espn.com/nfl/team/stats/_/name/dal/dallas-cowboys",
+          "href": "http://www.espn.com/nfl/team/stats/_/name/sea/seattle-seahawks",
           "text": "Statistics",
           "shortText": "Statistics",
           "isExternal": false,
@@ -140,7 +327,7 @@
             "desktop",
             "team"
           ],
-          "href": "https://www.espn.com/nfl/team/schedule/_/name/dal",
+          "href": "https://www.espn.com/nfl/team/schedule/_/name/sea",
           "text": "Schedule",
           "shortText": "Schedule",
           "isExternal": false,
@@ -153,7 +340,7 @@
             "desktop",
             "team"
           ],
-          "href": "https://www.espn.com/nfl/team/photos/_/name/dal",
+          "href": "https://www.espn.com/nfl/team/photos/_/name/sea",
           "text": "photos",
           "shortText": "photos",
           "isExternal": false,
@@ -166,7 +353,7 @@
             "desktop",
             "team"
           ],
-          "href": "https://www.vividseats.com/dallas-cowboys-tickets--sports-nfl-football/performer/214?wsUser=717",
+          "href": "https://www.vividseats.com/seattle-seahawks-tickets--sports-nfl-football/performer/772?wsUser=717",
           "text": "Tickets",
           "shortText": "Tickets",
           "isExternal": true,
@@ -179,7 +366,7 @@
             "desktop",
             "team"
           ],
-          "href": "https://www.espn.com/nfl/draft/teams/_/name/dal/dallas-cowboys",
+          "href": "https://www.espn.com/nfl/draft/teams/_/name/sea/seattle-seahawks",
           "text": "Draft Picks",
           "shortText": "Draft Picks",
           "isExternal": false,
@@ -192,7 +379,7 @@
             "desktop",
             "team"
           ],
-          "href": "https://www.espn.com/nfl/team/transactions/_/name/dal",
+          "href": "https://www.espn.com/nfl/team/transactions/_/name/sea",
           "text": "Transactions",
           "shortText": "Transactions",
           "isExternal": false,
@@ -205,7 +392,7 @@
             "desktop",
             "team"
           ],
-          "href": "https://www.espn.com/nfl/team/injuries/_/name/dal",
+          "href": "https://www.espn.com/nfl/team/injuries/_/name/sea",
           "text": "Injuries",
           "shortText": "Injuries",
           "isExternal": false,
@@ -218,7 +405,7 @@
             "desktop",
             "team"
           ],
-          "href": "https://www.espn.com/nfl/team/depth/_/name/dal",
+          "href": "https://www.espn.com/nfl/team/depth/_/name/sea",
           "text": "Depth Chart",
           "shortText": "Depth Chart",
           "isExternal": false,
@@ -228,19 +415,19 @@
       "groups": {},
       "coaches": {},
       "venue": {
-        "id": "3687",
-        "fullName": "AT&T Stadium",
+        "id": "3673",
+        "fullName": "Lumen Field",
         "address": {
-          "city": "Arlington",
-          "state": "TX",
-          "zipCode": "76011"
+          "city": "Seattle",
+          "state": "WA",
+          "zipCode": "98134"
         },
-        "capacity": 100000,
+        "capacity": 68740,
         "grass": false,
-        "indoor": true,
+        "indoor": false,
         "images": [
           {
-            "href": "https://a.espncdn.com/i/venues/nfl/day/3687.jpg",
+            "href": "https://a.espncdn.com/i/venues/nfl/day/3673.jpg",
             "width": 2000,
             "height": 1125,
             "rel": [
@@ -249,7 +436,233 @@
             ]
           },
           {
-            "href": "https://a.espncdn.com/i/venues/nfl/day/interior/3687.jpg",
+            "href": "https://a.espncdn.com/i/venues/nfl/day/interior/3673.jpg",
+            "width": 2000,
+            "height": 1125,
+            "rel": [
+              "full",
+              "day",
+              "interior"
+            ]
+          }
+        ]
+      },
+      "record": {},
+      "againstTheSpreadRecords": {},
+      "ranks": {},
+      "franchise": {}
+    },
+    "buffalo-bills": {
+      "id": "2",
+      "uid": "s:20~l:28~t:2",
+      "guid": "232afaf2-01ac-fcc2-8bd6-66550df1703a",
+      "slug": "buffalo-bills",
+      "location": "Buffalo",
+      "name": "Bills",
+      "nickname": "Bills",
+      "abbreviation": "BUF",
+      "displayName": "Buffalo Bills",
+      "shortDisplayName": "Bills",
+      "color": "04407F",
+      "alternateColor": "d50a0a",
+      "isActive": true,
+      "isAllStar": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+          "width": 500,
+          "height": 500,
+          "rel": [
+            "full",
+            "default"
+          ]
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/buf.png",
+          "width": 500,
+          "height": 500,
+          "rel": [
+            "full",
+            "dark"
+          ]
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
+          "width": 500,
+          "height": 500,
+          "rel": [
+            "full",
+            "scoreboard"
+          ]
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/buf.png",
+          "width": 500,
+          "height": 500,
+          "rel": [
+            "full",
+            "scoreboard",
+            "dark"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "clubhouse",
+            "desktop",
+            "team"
+          ],
+          "href": "https://www.espn.com/nfl/team/_/name/buf/buffalo-bills",
+          "text": "Clubhouse",
+          "shortText": "Clubhouse",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "roster",
+            "desktop",
+            "team"
+          ],
+          "href": "http://www.espn.com/nfl/team/roster/_/name/buf/buffalo-bills",
+          "text": "Roster",
+          "shortText": "Roster",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "stats",
+            "desktop",
+            "team"
+          ],
+          "href": "http://www.espn.com/nfl/team/stats/_/name/buf/buffalo-bills",
+          "text": "Statistics",
+          "shortText": "Statistics",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "schedule",
+            "desktop",
+            "team"
+          ],
+          "href": "https://www.espn.com/nfl/team/schedule/_/name/buf",
+          "text": "Schedule",
+          "shortText": "Schedule",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "photos",
+            "desktop",
+            "team"
+          ],
+          "href": "https://www.espn.com/nfl/team/photos/_/name/buf",
+          "text": "photos",
+          "shortText": "photos",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "tickets",
+            "desktop",
+            "team"
+          ],
+          "href": "https://www.vividseats.com/buffalo-bills-tickets--sports-nfl-football/performer/128?wsUser=717",
+          "text": "Tickets",
+          "shortText": "Tickets",
+          "isExternal": true,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "draftpicks",
+            "desktop",
+            "team"
+          ],
+          "href": "https://www.espn.com/nfl/draft/teams/_/name/buf/buffalo-bills",
+          "text": "Draft Picks",
+          "shortText": "Draft Picks",
+          "isExternal": false,
+          "isPremium": true
+        },
+        {
+          "language": "en",
+          "rel": [
+            "transactions",
+            "desktop",
+            "team"
+          ],
+          "href": "https://www.espn.com/nfl/team/transactions/_/name/buf",
+          "text": "Transactions",
+          "shortText": "Transactions",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "injuries",
+            "desktop",
+            "team"
+          ],
+          "href": "https://www.espn.com/nfl/team/injuries/_/name/buf",
+          "text": "Injuries",
+          "shortText": "Injuries",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "depthchart",
+            "desktop",
+            "team"
+          ],
+          "href": "https://www.espn.com/nfl/team/depth/_/name/buf",
+          "text": "Depth Chart",
+          "shortText": "Depth Chart",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "groups": {},
+      "coaches": {},
+      "venue": {
+        "id": "3883",
+        "fullName": "Highmark Stadium",
+        "address": {
+          "city": "Orchard Park",
+          "state": "NY",
+          "zipCode": "14127"
+        },
+        "capacity": 71621,
+        "grass": false,
+        "indoor": false,
+        "images": [
+          {
+            "href": "https://a.espncdn.com/i/venues/nfl/day/3883.jpg",
+            "width": 2000,
+            "height": 1125,
+            "rel": [
+              "full",
+              "day"
+            ]
+          },
+          {
+            "href": "https://a.espncdn.com/i/venues/nfl/day/interior/3883.jpg",
             "width": 2000,
             "height": 1125,
             "rel": [
@@ -316,80 +729,260 @@
       ],
       "statistics": [
         {
-          "teamId": "6",
-          "teamSlug": "dallas-cowboys",
+          "teamId": "2",
+          "teamSlug": "buffalo-bills",
           "season": {
-            "year": 2019,
-            "displayName": "2019"
+            "year": 2007,
+            "displayName": "2007"
           },
           "stats": [
-            "15",
-            "86",
-            "455",
-            "5.3",
-            "2",
-            "44",
-            "21",
+            "13",
+            "280",
+            "1,115",
+            "4.0",
+            "7",
+            "56",
+            "51",
             "1",
             "1"
           ],
           "position": "RB"
         },
         {
-          "teamId": "6",
-          "teamSlug": "dallas-cowboys",
+          "teamId": "2",
+          "teamSlug": "buffalo-bills",
           "season": {
-            "year": 2020,
-            "displayName": "2020"
-          },
-          "stats": [
-            "16",
-            "101",
-            "435",
-            "4.3",
-            "4",
-            "42",
-            "23",
-            "0",
-            "0"
-          ],
-          "position": "RB"
-        },
-        {
-          "teamId": "6",
-          "teamSlug": "dallas-cowboys",
-          "season": {
-            "year": 2021,
-            "displayName": "2021"
+            "year": 2008,
+            "displayName": "2008"
           },
           "stats": [
             "15",
-            "130",
-            "719",
-            "5.5",
+            "250",
+            "1,036",
+            "4.1",
+            "8",
+            "50",
+            "53",
             "2",
-            "58",
-            "35",
+            "1"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "2",
+          "teamSlug": "buffalo-bills",
+          "season": {
+            "year": 2009,
+            "displayName": "2009"
+          },
+          "stats": [
+            "13",
+            "120",
+            "450",
+            "3.8",
+            "2",
+            "47",
+            "18",
+            "3",
+            "1"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "2",
+          "teamSlug": "buffalo-bills",
+          "season": {
+            "year": 2010,
+            "displayName": "2010"
+          },
+          "stats": [
+            "4",
+            "37",
+            "164",
+            "4.4",
+            "0",
+            "17",
+            "9",
+            "1",
+            "1"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "26",
+          "teamSlug": "seattle-seahawks",
+          "season": {
+            "year": 2010,
+            "displayName": "2010"
+          },
+          "stats": [
+            "12",
+            "165",
+            "573",
+            "3.5",
+            "6",
+            "39",
+            "29",
+            "1",
+            "1"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "26",
+          "teamSlug": "seattle-seahawks",
+          "season": {
+            "year": 2011,
+            "displayName": "2011"
+          },
+          "stats": [
+            "15",
+            "285",
+            "1,204",
+            "4.2",
+            "12",
+            "47",
+            "63",
+            "3",
+            "2"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "26",
+          "teamSlug": "seattle-seahawks",
+          "season": {
+            "year": 2012,
+            "displayName": "2012"
+          },
+          "stats": [
+            "16",
+            "315",
+            "1,590",
+            "5.0",
+            "11",
+            "77",
+            "68",
+            "4",
+            "2"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "26",
+          "teamSlug": "seattle-seahawks",
+          "season": {
+            "year": 2013,
+            "displayName": "2013"
+          },
+          "stats": [
+            "16",
+            "301",
+            "1,257",
+            "4.2",
+            "12",
+            "43",
+            "68",
+            "3",
+            "1"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "26",
+          "teamSlug": "seattle-seahawks",
+          "season": {
+            "year": 2014,
+            "displayName": "2014"
+          },
+          "stats": [
+            "16",
+            "280",
+            "1,306",
+            "4.7",
+            "13",
+            "79",
+            "65",
+            "1",
+            "0"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "26",
+          "teamSlug": "seattle-seahawks",
+          "season": {
+            "year": 2015,
+            "displayName": "2015"
+          },
+          "stats": [
+            "7",
+            "111",
+            "417",
+            "3.8",
+            "3",
+            "24",
+            "29",
             "0",
             "0"
           ],
           "position": "RB"
         },
         {
-          "teamId": "6",
-          "teamSlug": "dallas-cowboys",
+          "teamId": "13",
+          "teamSlug": "oakland-raiders",
           "season": {
-            "year": 2022,
-            "displayName": "2022"
+            "year": 2017,
+            "displayName": "2017"
           },
           "stats": [
-            "16",
-            "193",
-            "1,007",
-            "5.2",
-            "9",
-            "57",
-            "46",
+            "15",
+            "207",
+            "891",
+            "4.3",
+            "7",
+            "51",
+            "44",
+            "1",
+            "1"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "13",
+          "teamSlug": "oakland-raiders",
+          "season": {
+            "year": 2018,
+            "displayName": "2018"
+          },
+          "stats": [
+            "6",
+            "90",
+            "376",
+            "4.2",
+            "3",
+            "52",
+            "20",
+            "0",
+            "0"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "26",
+          "teamSlug": "seattle-seahawks",
+          "season": {
+            "year": 2019,
+            "displayName": "2019"
+          },
+          "stats": [
+            "1",
+            "12",
+            "34",
+            "2.8",
+            "1",
+            "15",
+            "2",
             "0",
             "0"
           ],
@@ -397,15 +990,15 @@
         }
       ],
       "totals": [
-        "62",
-        "510",
-        "2,616",
-        "5.1",
-        "17",
-        "58",
-        "125",
-        "1",
-        "1"
+        "149",
+        "2453",
+        "10,413",
+        "4.2",
+        "85",
+        "79",
+        "519",
+        "20",
+        "11"
       ],
       "sortKey": "rushing"
     },
@@ -462,253 +1055,271 @@
       ],
       "statistics": [
         {
-          "teamId": "6",
-          "teamSlug": "dallas-cowboys",
+          "teamId": "2",
+          "teamSlug": "buffalo-bills",
           "season": {
-            "year": 2019,
-            "displayName": "2019"
+            "year": 2007,
+            "displayName": "2007"
+          },
+          "stats": [
+            "13",
+            "18",
+            "26",
+            "184",
+            "10.2",
+            "0",
+            "30",
+            "10",
+            "1",
+            "0"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "2",
+          "teamSlug": "buffalo-bills",
+          "season": {
+            "year": 2008,
+            "displayName": "2008"
           },
           "stats": [
             "15",
+            "47",
+            "67",
+            "300",
+            "6.4",
+            "1",
+            "42",
+            "14",
+            "0",
+            "0"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "2",
+          "teamSlug": "buffalo-bills",
+          "season": {
+            "year": 2009,
+            "displayName": "2009"
+          },
+          "stats": [
+            "13",
+            "28",
+            "37",
+            "179",
+            "6.4",
+            "0",
+            "35",
+            "6",
+            "0",
+            "0"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "2",
+          "teamSlug": "buffalo-bills",
+          "season": {
+            "year": 2010,
+            "displayName": "2010"
+          },
+          "stats": [
+            "4",
+            "1",
+            "3",
+            "7",
+            "7.0",
+            "0",
+            "7",
+            "0",
+            "0",
+            "0"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "26",
+          "teamSlug": "seattle-seahawks",
+          "season": {
+            "year": 2010,
+            "displayName": "2010"
+          },
+          "stats": [
+            "12",
+            "21",
+            "25",
+            "138",
+            "6.6",
+            "0",
+            "22",
+            "5",
+            "2",
+            "2"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "26",
+          "teamSlug": "seattle-seahawks",
+          "season": {
+            "year": 2011,
+            "displayName": "2011"
+          },
+          "stats": [
+            "15",
+            "28",
+            "41",
+            "212",
+            "7.6",
+            "1",
+            "26",
+            "8",
+            "0",
+            "0"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "26",
+          "teamSlug": "seattle-seahawks",
+          "season": {
+            "year": 2012,
+            "displayName": "2012"
+          },
+          "stats": [
+            "16",
+            "23",
+            "30",
+            "196",
+            "8.5",
+            "1",
+            "27",
+            "11",
+            "1",
+            "0"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "26",
+          "teamSlug": "seattle-seahawks",
+          "season": {
+            "year": 2013,
+            "displayName": "2013"
+          },
+          "stats": [
+            "16",
+            "36",
+            "44",
+            "316",
+            "8.8",
+            "2",
+            "55",
+            "12",
+            "1",
+            "0"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "26",
+          "teamSlug": "seattle-seahawks",
+          "season": {
+            "year": 2014,
+            "displayName": "2014"
+          },
+          "stats": [
+            "16",
+            "37",
+            "48",
+            "367",
+            "9.9",
+            "4",
+            "39",
+            "16",
+            "2",
+            "2"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "26",
+          "teamSlug": "seattle-seahawks",
+          "season": {
+            "year": 2015,
+            "displayName": "2015"
+          },
+          "stats": [
+            "7",
+            "13",
+            "22",
+            "80",
+            "6.2",
+            "0",
+            "19",
+            "5",
+            "0",
+            "0"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "13",
+          "teamSlug": "oakland-raiders",
+          "season": {
+            "year": 2017,
+            "displayName": "2017"
+          },
+          "stats": [
             "15",
             "20",
-            "107",
-            "7.1",
-            "1",
-            "21",
-            "4",
+            "31",
+            "151",
+            "7.6",
+            "0",
+            "25",
+            "6",
             "0",
             "0"
           ],
           "position": "RB"
         },
         {
-          "teamId": "6",
-          "teamSlug": "dallas-cowboys",
+          "teamId": "13",
+          "teamSlug": "oakland-raiders",
           "season": {
-            "year": 2020,
-            "displayName": "2020"
+            "year": 2018,
+            "displayName": "2018"
           },
           "stats": [
-            "16",
-            "28",
-            "40",
-            "192",
-            "6.9",
-            "1",
-            "30",
-            "9",
-            "0",
-            "0"
-          ],
-          "position": "RB"
-        },
-        {
-          "teamId": "6",
-          "teamSlug": "dallas-cowboys",
-          "season": {
-            "year": 2021,
-            "displayName": "2021"
-          },
-          "stats": [
+            "6",
             "15",
-            "39",
-            "46",
-            "337",
-            "8.6",
-            "0",
-            "32",
-            "15",
-            "2",
-            "0"
-          ],
-          "position": "RB"
-        },
-        {
-          "teamId": "6",
-          "teamSlug": "dallas-cowboys",
-          "season": {
-            "year": 2022,
-            "displayName": "2022"
-          },
-          "stats": [
-            "16",
-            "39",
-            "55",
-            "371",
-            "9.5",
-            "3",
-            "68",
-            "18",
-            "0",
-            "0"
-          ],
-          "position": "RB"
-        }
-      ],
-      "totals": [
-        "62",
-        "121",
-        "161",
-        "1,007",
-        "8.3",
-        "5",
-        "68",
-        "46",
-        "2",
-        "0"
-      ],
-      "sortKey": "receiving"
-    },
-    {
-      "name": "returning",
-      "displayName": "Returning",
-      "categories": [
-        {
-          "name": "punts",
-          "displayName": "punts",
-          "count": 6
-        },
-        {
-          "name": "kickoffs",
-          "displayName": "kickoffs",
-          "count": 5
-        }
-      ],
-      "labels": [
-        "GP",
-        "ATT",
-        "YDS",
-        "TD",
-        "FC",
-        "LNG",
-        "ATT",
-        "YDS",
-        "TD",
-        "KRFC",
-        "LNG"
-      ],
-      "names": [
-        "gamesPlayed",
-        "puntReturns",
-        "puntReturnYards",
-        "puntReturnTouchdowns",
-        "puntReturnFairCatches",
-        "longPuntReturn",
-        "kickReturns",
-        "kickReturnYards",
-        "kickReturnTouchdowns",
-        "kickReturnFairCatches",
-        "longKickReturn"
-      ],
-      "displayNames": [
-        "Games Played",
-        "Punt Returns",
-        "Punt Return Yards",
-        "Punt Return Touchdowns",
-        "Punt Return Fair Catches",
-        "Long Punt Return",
-        "Kick Returns",
-        "Kick Return Yards",
-        "Kick Return Touchdowns",
-        "Kick Return Fair Catches",
-        "Long Kick Return"
-      ],
-      "descriptions": [
-        "Games Played",
-        "The number of punt returns.",
-        "The total yardage of punt returns.",
-        "The number of punt return touchdowns.",
-        "The number of punt return fair catches.",
-        "The longest punt return in yards.",
-        "The number of kick returns.",
-        "The total yardage of kick returns.",
-        "The number of kick return touchdowns.",
-        "The number of kick return fair catches.",
-        "The longest kick return in yards."
-      ],
-      "statistics": [
-        {
-          "teamId": "6",
-          "teamSlug": "dallas-cowboys",
-          "season": {
-            "year": 2019,
-            "displayName": "2019"
-          },
-          "stats": [
-            "15",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "14",
-            "245",
-            "0",
-            "0",
-            "30"
-          ],
-          "position": "RB"
-        },
-        {
-          "teamId": "6",
-          "teamSlug": "dallas-cowboys",
-          "season": {
-            "year": 2020,
-            "displayName": "2020"
-          },
-          "stats": [
-            "16",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "32",
-            "766",
-            "0",
-            "0",
-            "67"
-          ],
-          "position": "RB"
-        },
-        {
-          "teamId": "6",
-          "teamSlug": "dallas-cowboys",
-          "season": {
-            "year": 2021,
-            "displayName": "2021"
-          },
-          "stats": [
-            "15",
-            "0",
-            "0",
-            "0",
-            "0",
+            "20",
+            "84",
+            "5.6",
             "0",
             "17",
-            "489",
-            "1",
+            "6",
             "0",
-            "100"
+            "0"
           ],
           "position": "RB"
         }
       ],
       "totals": [
-        "62",
-        "0",
-        "0",
-        "0",
-        "0",
-        "0",
-        "63",
-        "1,500",
-        "1",
-        "0",
-        "100"
+        "149",
+        "287",
+        "394",
+        "2,214",
+        "7.7",
+        "9",
+        "55",
+        "99",
+        "7",
+        "4"
       ],
-      "sortKey": "returning"
+      "sortKey": "receiving"
     },
     {
       "name": "passing",
@@ -771,11 +1382,34 @@
       ],
       "statistics": [
         {
-          "teamId": "6",
-          "teamSlug": "dallas-cowboys",
+          "teamId": "2",
+          "teamSlug": "buffalo-bills",
           "season": {
-            "year": 2021,
-            "displayName": "2021"
+            "year": 2007,
+            "displayName": "2007"
+          },
+          "stats": [
+            "13",
+            "1",
+            "1",
+            "100.0",
+            "8",
+            "8.0",
+            "1",
+            "0",
+            "8",
+            "0",
+            "139.6",
+            "92.5"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "2",
+          "teamSlug": "buffalo-bills",
+          "season": {
+            "year": 2008,
+            "displayName": "2008"
           },
           "stats": [
             "15",
@@ -789,19 +1423,19 @@
             "0",
             "0",
             "0.0",
-            "98.9"
+            "34.9"
           ],
           "position": "RB"
         },
         {
-          "teamId": "6",
-          "teamSlug": "dallas-cowboys",
+          "teamId": "2",
+          "teamSlug": "buffalo-bills",
           "season": {
-            "year": 2022,
-            "displayName": "2022"
+            "year": 2010,
+            "displayName": "2010"
           },
           "stats": [
-            "16",
+            "4",
             "0",
             "0",
             "0.0",
@@ -812,23 +1446,69 @@
             "0",
             "0",
             "0.0",
-            "0.8"
+            "80.1"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "26",
+          "teamSlug": "seattle-seahawks",
+          "season": {
+            "year": 2010,
+            "displayName": "2010"
+          },
+          "stats": [
+            "12",
+            "0",
+            "0",
+            "0.0",
+            "0",
+            "0.0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0.0",
+            "80.1"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "26",
+          "teamSlug": "seattle-seahawks",
+          "season": {
+            "year": 2011,
+            "displayName": "2011"
+          },
+          "stats": [
+            "15",
+            "0",
+            "2",
+            "0.0",
+            "0",
+            "0.0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "39.6",
+            "3.1"
           ],
           "position": "RB"
         }
       ],
       "totals": [
-        "62",
+        "149",
+        "1",
+        "3",
+        "33.3",
+        "8",
+        "2.7",
+        "1",
         "0",
+        "8",
         "0",
-        "0.0",
-        "0",
-        "0.0",
-        "0",
-        "0",
-        "0",
-        "0",
-        "0.0",
+        "81.9",
         "-"
       ],
       "sortKey": "passing"
@@ -914,11 +1594,179 @@
       ],
       "statistics": [
         {
-          "teamId": "6",
-          "teamSlug": "dallas-cowboys",
+          "teamId": "2",
+          "teamSlug": "buffalo-bills",
           "season": {
-            "year": 2019,
-            "displayName": "2019"
+            "year": 2009,
+            "displayName": "2009"
+          },
+          "stats": [
+            "13",
+            "1",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0.0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "26",
+          "teamSlug": "seattle-seahawks",
+          "season": {
+            "year": 2010,
+            "displayName": "2010"
+          },
+          "stats": [
+            "12",
+            "2",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0.0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "26",
+          "teamSlug": "seattle-seahawks",
+          "season": {
+            "year": 2011,
+            "displayName": "2011"
+          },
+          "stats": [
+            "15",
+            "2",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0.0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "26",
+          "teamSlug": "seattle-seahawks",
+          "season": {
+            "year": 2012,
+            "displayName": "2012"
+          },
+          "stats": [
+            "16",
+            "3",
+            "3",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0.0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "26",
+          "teamSlug": "seattle-seahawks",
+          "season": {
+            "year": 2013,
+            "displayName": "2013"
+          },
+          "stats": [
+            "16",
+            "3",
+            "3",
+            "0",
+            "0",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0.0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "26",
+          "teamSlug": "seattle-seahawks",
+          "season": {
+            "year": 2015,
+            "displayName": "2015"
+          },
+          "stats": [
+            "7",
+            "1",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0.0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "13",
+          "teamSlug": "oakland-raiders",
+          "season": {
+            "year": 2017,
+            "displayName": "2017"
           },
           "stats": [
             "15",
@@ -942,70 +1790,14 @@
           "position": "RB"
         },
         {
-          "teamId": "6",
-          "teamSlug": "dallas-cowboys",
+          "teamId": "13",
+          "teamSlug": "oakland-raiders",
           "season": {
-            "year": 2020,
-            "displayName": "2020"
+            "year": 2018,
+            "displayName": "2018"
           },
           "stats": [
-            "16",
-            "2",
-            "2",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0.0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0"
-          ],
-          "position": "RB"
-        },
-        {
-          "teamId": "6",
-          "teamSlug": "dallas-cowboys",
-          "season": {
-            "year": 2021,
-            "displayName": "2021"
-          },
-          "stats": [
-            "15",
-            "5",
-            "4",
-            "1",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0.0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0"
-          ],
-          "position": "RB"
-        },
-        {
-          "teamId": "6",
-          "teamSlug": "dallas-cowboys",
-          "season": {
-            "year": 2022,
-            "displayName": "2022"
-          },
-          "stats": [
-            "16",
+            "6",
             "1",
             "1",
             "0",
@@ -1027,12 +1819,12 @@
         }
       ],
       "totals": [
-        "62",
-        "9",
-        "8",
-        "1",
+        "149",
+        "14",
+        "14",
         "0",
         "0",
+        "2",
         "0",
         "0",
         "0",
@@ -1100,17 +1892,185 @@
       ],
       "statistics": [
         {
-          "teamId": "6",
-          "teamSlug": "dallas-cowboys",
+          "teamId": "2",
+          "teamSlug": "buffalo-bills",
           "season": {
-            "year": 2019,
-            "displayName": "2019"
+            "year": 2007,
+            "displayName": "2007"
+          },
+          "stats": [
+            "13",
+            "1",
+            "7",
+            "0",
+            "0",
+            "7",
+            "1",
+            "0",
+            "0",
+            "44"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "2",
+          "teamSlug": "buffalo-bills",
+          "season": {
+            "year": 2008,
+            "displayName": "2008"
           },
           "stats": [
             "15",
             "0",
-            "2",
+            "8",
             "1",
+            "0",
+            "9",
+            "0",
+            "0",
+            "0",
+            "54"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "2",
+          "teamSlug": "buffalo-bills",
+          "season": {
+            "year": 2009,
+            "displayName": "2009"
+          },
+          "stats": [
+            "13",
+            "0",
+            "2",
+            "0",
+            "0",
+            "2",
+            "0",
+            "0",
+            "0",
+            "12"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "26",
+          "teamSlug": "seattle-seahawks",
+          "season": {
+            "year": 2010,
+            "displayName": "2010"
+          },
+          "stats": [
+            "12",
+            "0",
+            "6",
+            "0",
+            "0",
+            "6",
+            "0",
+            "0",
+            "0",
+            "36"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "26",
+          "teamSlug": "seattle-seahawks",
+          "season": {
+            "year": 2011,
+            "displayName": "2011"
+          },
+          "stats": [
+            "15",
+            "0",
+            "12",
+            "1",
+            "0",
+            "13",
+            "0",
+            "0",
+            "0",
+            "78"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "26",
+          "teamSlug": "seattle-seahawks",
+          "season": {
+            "year": 2012,
+            "displayName": "2012"
+          },
+          "stats": [
+            "16",
+            "0",
+            "11",
+            "1",
+            "0",
+            "12",
+            "0",
+            "0",
+            "0",
+            "72"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "26",
+          "teamSlug": "seattle-seahawks",
+          "season": {
+            "year": 2013,
+            "displayName": "2013"
+          },
+          "stats": [
+            "16",
+            "0",
+            "12",
+            "2",
+            "0",
+            "14",
+            "0",
+            "0",
+            "0",
+            "84"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "26",
+          "teamSlug": "seattle-seahawks",
+          "season": {
+            "year": 2014,
+            "displayName": "2014"
+          },
+          "stats": [
+            "16",
+            "0",
+            "13",
+            "4",
+            "0",
+            "17",
+            "0",
+            "0",
+            "0",
+            "102"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "26",
+          "teamSlug": "seattle-seahawks",
+          "season": {
+            "year": 2015,
+            "displayName": "2015"
+          },
+          "stats": [
+            "7",
+            "0",
+            "3",
+            "0",
             "0",
             "3",
             "1",
@@ -1121,39 +2081,39 @@
           "position": "RB"
         },
         {
-          "teamId": "6",
-          "teamSlug": "dallas-cowboys",
+          "teamId": "13",
+          "teamSlug": "oakland-raiders",
           "season": {
-            "year": 2020,
-            "displayName": "2020"
-          },
-          "stats": [
-            "16",
-            "0",
-            "4",
-            "1",
-            "0",
-            "5",
-            "0",
-            "0",
-            "0",
-            "30"
-          ],
-          "position": "RB"
-        },
-        {
-          "teamId": "6",
-          "teamSlug": "dallas-cowboys",
-          "season": {
-            "year": 2021,
-            "displayName": "2021"
+            "year": 2017,
+            "displayName": "2017"
           },
           "stats": [
             "15",
             "0",
-            "2",
+            "7",
             "0",
-            "1",
+            "0",
+            "7",
+            "0",
+            "0",
+            "0",
+            "42"
+          ],
+          "position": "RB"
+        },
+        {
+          "teamId": "13",
+          "teamSlug": "oakland-raiders",
+          "season": {
+            "year": 2018,
+            "displayName": "2018"
+          },
+          "stats": [
+            "6",
+            "0",
+            "3",
+            "0",
+            "0",
             "3",
             "0",
             "0",
@@ -1163,38 +2123,38 @@
           "position": "RB"
         },
         {
-          "teamId": "6",
-          "teamSlug": "dallas-cowboys",
+          "teamId": "26",
+          "teamSlug": "seattle-seahawks",
           "season": {
-            "year": 2022,
-            "displayName": "2022"
+            "year": 2019,
+            "displayName": "2019"
           },
           "stats": [
-            "16",
+            "1",
             "0",
-            "9",
-            "3",
-            "0",
-            "12",
+            "1",
             "0",
             "0",
+            "1",
             "0",
-            "72"
+            "0",
+            "0",
+            "6"
           ],
           "position": "RB"
         }
       ],
       "totals": [
-        "62",
-        "0",
-        "17",
-        "5",
+        "149",
         "1",
-        "23",
-        "1",
+        "85",
+        "9",
+        "0",
+        "94",
+        "2",
         "0",
         "0",
-        "140"
+        "568"
       ],
       "sortKey": "scoring"
     }
